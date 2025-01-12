@@ -1,14 +1,14 @@
-nvmw
+nvmw-fix
 ====
 
 This is a simple Node Version Manager for Windows
 
-[![npm](https://img.shields.io/npm/v/nvmw.svg?style=plastic)](https://npmjs.org/package/nvmw) [![npm](https://img.shields.io/npm/dm/nvmw.svg?style=plastic)](https://npmjs.org/package/nvmw) [![npm](https://img.shields.io/npm/dt/nvmw.svg?style=plastic)](https://npmjs.org/package/nvmw)
+[![npm](https://img.shields.io/npm/v/nvmw-fix.svg?style=plastic)](https://npmjs.org/package/nvmw-fix) [![npm](https://img.shields.io/npm/dm/nvmw-fix.svg?style=plastic)](https://npmjs.org/package/nvmw-fix) [![npm](https://img.shields.io/npm/dt/nvmw-fix.svg?style=plastic)](https://npmjs.org/package/nvmw-fix)
 
 ## Installation
 
 ```shell
-npm install -g nvmw
+npm i -g nvmw-fix
 ```
 
 ## Usage
@@ -39,6 +39,7 @@ nvmw -h
     nvmw install v8.12.0
     nvmw uninstall v8.12.0
     nvmw use v8.12.0
+    nvmw switch v8.12.0
 ```
 
 ## Notes
