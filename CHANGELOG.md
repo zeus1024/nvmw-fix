@@ -1,3 +1,7 @@
+## 1.1.0  2025.1.12
+
+* 固定package.json版本，解决commander报错导致无法使用
+
 ## 1.0.0 October 08, 2018
 
 * Upgrade the install logic

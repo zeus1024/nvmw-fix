@@ -1,18 +1,18 @@
 {
-  "name": "nvmw",
+  "name": "nvmw-fix",
   "description": "Node version manager for Windows",
-  "version": "1.0.0",
-  "author": "Tom.Huang <hzlhu.dargon@gmail.com>",
+  "version": "1.1.0",
+  "author": "XiuJin.Chen <xjchen1024@foxmail.com>",
   "dependencies": {
-    "async": "*",
-    "colors": "*",
-    "commander": "*",
-    "extract-zip": "^1.6.7",
-    "mkdirp": "*",
-    "request": "*",
-    "rmdir": "*",
-    "underscore": "1.4.x",
-    "winreg": "*"
+    "async": "3.2.6",
+    "colors": "1.4.0",
+    "commander": "11.1.0",
+    "extract-zip": "1.7.0",
+    "mkdirp": "3.0.1",
+    "request": "2.88.2",
+    "rmdir": "1.2.0",
+    "underscore": "1.4.4",
+    "winreg": "1.2.5"
   },
   "keys": [
     "Node",
@@ -23,5 +23,5 @@
   "bin": {
     "nvmw": "./bin/nvmw.cmd"
   },
-  "repository": "git://github.com/nanjingboy/nvmw"
+  "repository": "https://github.com/zeus1024/nvmw-fix.git"
 }
