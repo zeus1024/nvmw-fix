@@ -1,7 +1,7 @@
 {
   "name": "nvmw-fix",
-  "description": "Node version manager for Windows",
-  "version": "1.1.0",
+  "description": "Node version manager for Windows。在Windows上全局切换node.js版本的工具",
+  "version": "1.1.1",
   "author": "XiuJin.Chen <xjchen1024@foxmail.com>",
   "dependencies": {
     "async": "3.2.6",
@@ -18,8 +18,10 @@
     "Node",
     "version",
     "manager",
-    "widnows"
-  ],
+    "widnows",
+    "nvm",
+    "nvmw"
+    ],
   "bin": {
     "nvmw": "./bin/nvmw.cmd"
   },
